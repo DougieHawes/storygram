@@ -1,0 +1,35 @@
+.post {
+  border: 2px solid #40798c;
+  width: 270px;
+  margin: 3px;
+}
+
+.post .post-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4px 6px;
+}
+
+.post .post-user .post-avatar {
+  background-color: blue;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+
+.post .post-user .post-author {
+  margin-left: 3px;
+  font-size: 21px;
+}
+
+.post .post-img {
+  background-color: red;
+  height: 200px;
+  width: 100%;
+}
+
+.post .post-details {
+  padding: 4px 6px;
+}
+/*# sourceMappingURL=style.css.map */

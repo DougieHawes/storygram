@@ -1,0 +1,31 @@
+$colour1: #0b2027;
+$colour2: #f7ebe8;
+$colour3: #40798c;
+
+.post {
+  border: 2px solid $colour3;
+  width: 270px;
+  margin: 3px;
+  .post-user {
+    display: flex;
+    padding: 4px 6px;
+    .post-avatar {
+      background-color: blue;
+      border-radius: 50%;
+      height: 35px;
+      width: 35px;
+    }
+    .post-author {
+      margin-left: 3px;
+      font-size: 21px;
+    }
+  }
+  .post-img {
+    background-color: red;
+    height: 200px;
+    width: 100%;
+  }
+  .post-details {
+    padding: 4px 6px;
+  }
+}

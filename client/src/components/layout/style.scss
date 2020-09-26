@@ -1,0 +1,17 @@
+$colour1: #0b2027;
+$colour2: #f7ebe8;
+$colour3: #40798c;
+
+.header {
+  border-bottom: 4px solid $colour3;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 2%;
+  position: fixed;
+  width: 100%;
+  .header-links {
+    .header-link {
+      font-size: 18px;
+    }
+  }
+}

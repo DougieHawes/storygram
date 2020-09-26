@@ -1,0 +1,17 @@
+.header {
+  border-bottom: 4px solid #40798c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 6px 2%;
+  position: fixed;
+  width: 100%;
+}
+
+.header .header-links .header-link {
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */

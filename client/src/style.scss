@@ -1,0 +1,20 @@
+$font: "Roboto Slab", serif;
+
+$colour1: #0b2027;
+$colour2: #f7ebe8;
+$colour3: #40798c;
+
+* {
+  background-color: $colour2;
+  box-sizing: border-box;
+  color: $colour1;
+  font-family: $font;
+  margin: 0;
+  text-decoration: none;
+}
+
+.app {
+  .page {
+    padding: 70px 2% 0 2%;
+  }
+}
